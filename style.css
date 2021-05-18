@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 25px 50px;
 }
 
 .bloc-md {
@@ -660,6 +660,7 @@ a {
 
 .container {
     max-width: 1000px;
+    margin: auto;
 }
 
 .hero-bloc-text {
@@ -1087,13 +1088,37 @@ h4 {
 #ct-tex {
 text-align: center;
 font-weight: bold;
+
+
 }
+
 
 .form-group {
     padding-bottom: 10px;
+    text-align: center;
 
 }
 
 .page-container {
     margin: auto;
 }
+
+input {
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+textarea {
+    margin-top: 10px;
+    max-width: 300px;
+}
+
+label {
+    font-weight: bold;
+}
+
+#citation-text {
+    font-size: 1.5rem;
+}
+
